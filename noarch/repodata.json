@@ -1,0 +1,9 @@
+{
+ "info": {
+  "base_url": "https://github.com/clice-io/conda/releases/download/channel-noarch/",
+  "subdir": "noarch"
+ },
+ "packages": {},
+ "packages.conda": {},
+ "repodata_version": 2
+}
