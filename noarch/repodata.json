@@ -1,6 +1,6 @@
 {
  "info": {
-  "base_url": "https://github.com/clice-io/conda/releases/download/channel-noarch/",
+  "base_url": "https://dl.clice.io/noarch/",
   "subdir": "noarch"
  },
  "packages": {},

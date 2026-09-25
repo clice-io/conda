@@ -1,6 +1,6 @@
 {
  "info": {
-  "base_url": "https://github.com/clice-io/conda/releases/download/channel-linux-64/",
+  "base_url": "https://dl.clice.io/linux-64/",
   "subdir": "linux-64"
  },
  "packages": {},
