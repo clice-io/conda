@@ -1,0 +1,13 @@
+{
+ "build": "h4616a5c_0",
+ "build_number": 0,
+ "depends": [],
+ "md5": "5008c22874ab14440bd06c645bffaee1",
+ "name": "clice-channel-test",
+ "noarch": "generic",
+ "sha256": "d913978dec9f325de58c3daf3314f17abf0a60f2edda63fd3bf4f8580d803845",
+ "size": 12041497,
+ "subdir": "noarch",
+ "timestamp": 1790441017240,
+ "version": "0.1.1"
+}
