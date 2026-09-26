@@ -1,7 +1,7 @@
 {
  "info": {
-  "subdir": "noarch",
-  "base_url": "https://dl.clice.io/noarch/"
+  "subdir": "linux-aarch64",
+  "base_url": "https://dl.clice.io/linux-aarch64/"
  },
  "packages": {},
  "packages.conda": {},

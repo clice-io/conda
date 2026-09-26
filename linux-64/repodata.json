@@ -1,7 +1,7 @@
 {
  "info": {
-  "base_url": "https://dl.clice.io/linux-64/",
-  "subdir": "linux-64"
+  "subdir": "linux-64",
+  "base_url": "https://dl.clice.io/linux-64/"
  },
  "packages": {},
  "packages.conda": {

@@ -1,7 +1,7 @@
 {
  "info": {
-  "subdir": "noarch",
-  "base_url": "https://dl.clice.io/noarch/"
+  "subdir": "win-arm64",
+  "base_url": "https://dl.clice.io/win-arm64/"
  },
  "packages": {},
  "packages.conda": {},
