@@ -1,0 +1,39 @@
+name: pages
+
+# The repodata of every subdir, rebuilt from index/ on gh-pages
+# (https://conda.clice.io) whenever main changes.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+
+jobs:
+  pages:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v5
+        with:
+          ref: gh-pages
+          path: site
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: node scripts/pages.ts site
+      - name: Commit
+        working-directory: site
+        run: |
+          git add -A
+          if git diff --cached --quiet; then echo "repodata unchanged"; exit 0; fi
+          git -c user.name=clice-bot -c user.email=306533837+clice-bot@users.noreply.github.com \
+            commit -q -m "repodata: ${GITHUB_SHA::8}"
+          git push -q origin HEAD:gh-pages

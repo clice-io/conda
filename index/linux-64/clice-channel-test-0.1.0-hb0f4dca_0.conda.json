@@ -1,0 +1,14 @@
+{
+ "arch": "x86_64",
+ "build": "hb0f4dca_0",
+ "build_number": 0,
+ "depends": [],
+ "md5": "61030be9564f2256f84eb0bb7adc169e",
+ "name": "clice-channel-test",
+ "platform": "linux",
+ "sha256": "a4e17f55c5a704e4016b5db05c60d2a2379124d08237415aaea149bcaa767c03",
+ "size": 1980,
+ "subdir": "linux-64",
+ "timestamp": 1790299077403,
+ "version": "0.1.0"
+}
