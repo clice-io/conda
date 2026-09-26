@@ -40,7 +40,9 @@ runs:
       with:
         path: __conda_repo
         token: ${{ inputs.token }}
-        branch: publish/${{ github.event.repository.name }}
+        # One branch per run: two runs, of one repository or of several, never
+        # replace each other's records.
+        branch: publish/${{ github.event.repository.name }}-${{ github.run_id }}-${{ github.run_attempt }}
         title: "publish: packages from ${{ github.repository }}"
         body: |
           Records of the packages published by [`${{ github.repository }}@${{ github.sha }}`](https://github.com/${{ github.repository }}/commit/${{ github.sha }}), run ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}.
