@@ -4,6 +4,91 @@
   "base_url": "https://dl.clice.io/noarch/"
  },
  "packages": {},
- "packages.conda": {},
+ "packages.conda": {
+  "llvm-option-inc-23.1.2.1-h4616a5c_0.conda": {
+   "build": "h4616a5c_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception",
+   "md5": "a5fbf21b88487cb6e8b9b111f4955cb8",
+   "name": "llvm-option-inc",
+   "noarch": "generic",
+   "sha256": "bf813a012b18ace3abbc44d3a47bf33688b582c43f91026805a841d83912bddd",
+   "size": 194009,
+   "subdir": "noarch",
+   "timestamp": 1790443908276,
+   "version": "23.1.2.1"
+  },
+  "xclang-aarch64-unknown-linux-gnu-23.1.2.1-h4616a5c_0.conda": {
+   "build": "h4616a5c_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later",
+   "md5": "0493da2eeaed107319a5e63f59a56c59",
+   "name": "xclang-aarch64-unknown-linux-gnu",
+   "noarch": "generic",
+   "sha256": "4e678c4c0ee0e151dd2d52bc39fec25c3e75a9abf2abe3867729bf66ab9d1dec",
+   "size": 11691523,
+   "subdir": "noarch",
+   "timestamp": 1790443780583,
+   "version": "23.1.2.1"
+  },
+  "xclang-aarch64-w64-mingw32-23.1.2.1-h4616a5c_0.conda": {
+   "build": "h4616a5c_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND ZPL-2.1 AND MIT",
+   "md5": "dd0f15587eaa6e8ee8bf69d08257c09d",
+   "name": "xclang-aarch64-w64-mingw32",
+   "noarch": "generic",
+   "sha256": "e9aa620706cf8ff7c8e57f5c1225eefff26760defc2ea27cb223a2e32fb4517c",
+   "size": 12789777,
+   "subdir": "noarch",
+   "timestamp": 1790443792258,
+   "version": "23.1.2.1"
+  },
+  "xclang-apple-darwin-23.1.2.1-h4616a5c_0.conda": {
+   "build": "h4616a5c_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception",
+   "md5": "ba3c332ccc78ea45da420a83e244006a",
+   "name": "xclang-apple-darwin",
+   "noarch": "generic",
+   "sha256": "d0779db175d67484e988e98eb028d2a55949fe236e88fa1cbcb02e02ebc08907",
+   "size": 13517564,
+   "subdir": "noarch",
+   "timestamp": 1790443798500,
+   "version": "23.1.2.1"
+  },
+  "xclang-x86_64-unknown-linux-gnu-23.1.2.1-h4616a5c_0.conda": {
+   "build": "h4616a5c_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later",
+   "md5": "ea5461bb5e561c7befa2d35309b50aa8",
+   "name": "xclang-x86_64-unknown-linux-gnu",
+   "noarch": "generic",
+   "sha256": "004b57050de921ec2fb3a0852959f68e7ccca24682e6342c9eb77c9fc3625bc5",
+   "size": 11804073,
+   "subdir": "noarch",
+   "timestamp": 1790443776185,
+   "version": "23.1.2.1"
+  },
+  "xclang-x86_64-w64-mingw32-23.1.2.1-h4616a5c_0.conda": {
+   "build": "h4616a5c_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND ZPL-2.1 AND MIT",
+   "md5": "8e056c3e4b7de443dfa5830dd8e5d0d6",
+   "name": "xclang-x86_64-w64-mingw32",
+   "noarch": "generic",
+   "sha256": "2c88d4796b1d7dfeee48eb425ee0a1e6d02a5d2ec48b72d4aa218c20aefee3ad",
+   "size": 14279174,
+   "subdir": "noarch",
+   "timestamp": 1790443784912,
+   "version": "23.1.2.1"
+  }
+ },
  "repodata_version": 2
 }

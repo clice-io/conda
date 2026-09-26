@@ -4,6 +4,30 @@
   "base_url": "https://dl.clice.io/win-64/"
  },
  "packages": {},
- "packages.conda": {},
+ "packages.conda": {
+  "xclang-23.1.2.1-h9490d1a_0.conda": {
+   "arch": "x86_64",
+   "build": "h9490d1a_0",
+   "build_number": 0,
+   "constrains": [
+    "xclang-x86_64-unknown-linux-gnu ==23.1.2.1",
+    "xclang-aarch64-unknown-linux-gnu ==23.1.2.1",
+    "xclang-aarch64-w64-mingw32 ==23.1.2.1",
+    "xclang-apple-darwin ==23.1.2.1"
+   ],
+   "depends": [
+    "xclang-x86_64-w64-mingw32 ==23.1.2.1"
+   ],
+   "license": "Apache-2.0 WITH LLVM-exception",
+   "md5": "fa8c45975fde33b298ae3e7ea4ce4783",
+   "name": "xclang",
+   "platform": "win",
+   "sha256": "acbb4eacc42fb7f3645dd114165b1298869a2bfe5abb1fe83a82d63b0ecd0e4a",
+   "size": 70074506,
+   "subdir": "win-64",
+   "timestamp": 1790443836855,
+   "version": "23.1.2.1"
+  }
+ },
  "repodata_version": 2
 }

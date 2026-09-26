@@ -4,6 +4,30 @@
   "base_url": "https://dl.clice.io/win-arm64/"
  },
  "packages": {},
- "packages.conda": {},
+ "packages.conda": {
+  "xclang-23.1.2.1-h5667933_0.conda": {
+   "arch": "arm64",
+   "build": "h5667933_0",
+   "build_number": 0,
+   "constrains": [
+    "xclang-x86_64-unknown-linux-gnu ==23.1.2.1",
+    "xclang-aarch64-unknown-linux-gnu ==23.1.2.1",
+    "xclang-x86_64-w64-mingw32 ==23.1.2.1",
+    "xclang-apple-darwin ==23.1.2.1"
+   ],
+   "depends": [
+    "xclang-aarch64-w64-mingw32 ==23.1.2.1"
+   ],
+   "license": "Apache-2.0 WITH LLVM-exception",
+   "md5": "bd41930324827aaeb95a031ec74d0510",
+   "name": "xclang",
+   "platform": "win",
+   "sha256": "fd671f08435db26356fc1ac07270b41cf56d8895a8055b95dce363634566bc2f",
+   "size": 65995539,
+   "subdir": "win-arm64",
+   "timestamp": 1790443851726,
+   "version": "23.1.2.1"
+  }
+ },
  "repodata_version": 2
 }
