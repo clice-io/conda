@@ -50,6 +50,10 @@ once `check` has passed: every record must name a file its release holds
 with those bytes, and no published record may change. On `main`, `pages`
 rebuilds `<subdir>/repodata.json` on gh-pages from `index/`.
 
+To take a package down, delete its files from the release (or the release
+itself), then remove their records in a pull request; `check` refuses a
+removal while the file is still there.
+
 ```
 action.yml          the action
 scripts/publish.ts  upload and write the records
