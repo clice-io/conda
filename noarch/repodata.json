@@ -5,20 +5,6 @@
  },
  "packages": {},
  "packages.conda": {
-  "llvm-option-inc-23.1.2.1-h4616a5c_0.conda": {
-   "build": "h4616a5c_0",
-   "build_number": 0,
-   "depends": [],
-   "license": "Apache-2.0 WITH LLVM-exception",
-   "md5": "a5fbf21b88487cb6e8b9b111f4955cb8",
-   "name": "llvm-option-inc",
-   "noarch": "generic",
-   "sha256": "bf813a012b18ace3abbc44d3a47bf33688b582c43f91026805a841d83912bddd",
-   "size": 194009,
-   "subdir": "noarch",
-   "timestamp": 1790443908276,
-   "version": "23.1.2.1"
-  },
   "llvm-option-inc-23.1.2.1-h4616a5c_1.conda": {
    "build": "h4616a5c_1",
    "build_number": 1,
