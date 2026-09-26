@@ -4,30 +4,6 @@
   "base_url": "https://dl.clice.io/osx-64/"
  },
  "packages": {},
- "packages.conda": {
-  "xclang-23.1.2.1-h0dc7051_0.conda": {
-   "arch": "x86_64",
-   "build": "h0dc7051_0",
-   "build_number": 0,
-   "constrains": [
-    "xclang-x86_64-unknown-linux-gnu ==23.1.2.1",
-    "xclang-aarch64-unknown-linux-gnu ==23.1.2.1",
-    "xclang-x86_64-w64-mingw32 ==23.1.2.1",
-    "xclang-aarch64-w64-mingw32 ==23.1.2.1"
-   ],
-   "depends": [
-    "xclang-apple-darwin ==23.1.2.1"
-   ],
-   "license": "Apache-2.0 WITH LLVM-exception",
-   "md5": "71483cd47365a238e1806b68f2f3ceb5",
-   "name": "xclang",
-   "platform": "osx",
-   "sha256": "962776601cb5c0af9508199c131c1206f2b21b73e69ef378eb58fee1210242b6",
-   "size": 104326366,
-   "subdir": "osx-64",
-   "timestamp": 1790443884323,
-   "version": "23.1.2.1"
-  }
- },
+ "packages.conda": {},
  "repodata_version": 2
 }
