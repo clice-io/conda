@@ -41,7 +41,10 @@ organization's `UPLOAD_CONDA` token:
     token: ${{ secrets.UPLOAD_CONDA }}
 ```
 
-The action uploads each file to its release and commits its repodata record
+Any repository of the organization can publish any number of packages, for
+any subdir; every run gets its own pull request, so publishers never wait
+on or overwrite each other. The action uploads each file to its release and
+commits its repodata record
 to `index/<subdir>/<file>.json` through a pull request that merges itself
 once `check` has passed: every record must name a file its release holds
 with those bytes, and no published record may change. On `main`, `pages`
