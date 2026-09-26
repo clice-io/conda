@@ -4,6 +4,22 @@
   "base_url": "https://dl.clice.io/osx-arm64/"
  },
  "packages": {},
- "packages.conda": {},
+ "packages.conda": {
+  "xclang-23.1.2.1-h60d57d3_1.conda": {
+   "arch": "arm64",
+   "build": "h60d57d3_1",
+   "build_number": 1,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND ZPL-2.1 AND MIT",
+   "md5": "ad38548f79dc044662d8fd044dec4e2d",
+   "name": "xclang",
+   "platform": "osx",
+   "sha256": "e3f6f96b68762bbf56132b9f1f0e96b0ed8369a14e071d1242966ab27f61e9df",
+   "size": 115425285,
+   "subdir": "osx-arm64",
+   "timestamp": 1790446993218,
+   "version": "23.1.2.1"
+  }
+ },
  "repodata_version": 2
 }

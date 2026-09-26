@@ -4,6 +4,22 @@
   "base_url": "https://dl.clice.io/win-64/"
  },
  "packages": {},
- "packages.conda": {},
+ "packages.conda": {
+  "xclang-23.1.2.1-h9490d1a_1.conda": {
+   "arch": "x86_64",
+   "build": "h9490d1a_1",
+   "build_number": 1,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND ZPL-2.1 AND MIT",
+   "md5": "9928b886ac332a2c0aac5123f0b34ea9",
+   "name": "xclang",
+   "platform": "win",
+   "sha256": "a8cde13acbfd522b9130386dab78fb6affb0ae90f93dfa637dc9ff1a4e082524",
+   "size": 94014112,
+   "subdir": "win-64",
+   "timestamp": 1790446990132,
+   "version": "23.1.2.1"
+  }
+ },
  "repodata_version": 2
 }
