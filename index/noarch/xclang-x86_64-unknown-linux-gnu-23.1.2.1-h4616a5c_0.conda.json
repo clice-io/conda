@@ -1,0 +1,14 @@
+{
+ "build": "h4616a5c_0",
+ "build_number": 0,
+ "depends": [],
+ "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later",
+ "md5": "ea5461bb5e561c7befa2d35309b50aa8",
+ "name": "xclang-x86_64-unknown-linux-gnu",
+ "noarch": "generic",
+ "sha256": "004b57050de921ec2fb3a0852959f68e7ccca24682e6342c9eb77c9fc3625bc5",
+ "size": 11804073,
+ "subdir": "noarch",
+ "timestamp": 1790443776185,
+ "version": "23.1.2.1"
+}

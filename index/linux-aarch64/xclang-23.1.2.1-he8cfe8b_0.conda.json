@@ -1,0 +1,23 @@
+{
+ "arch": "aarch64",
+ "build": "he8cfe8b_0",
+ "build_number": 0,
+ "constrains": [
+  "xclang-x86_64-unknown-linux-gnu ==23.1.2.1",
+  "xclang-x86_64-w64-mingw32 ==23.1.2.1",
+  "xclang-aarch64-w64-mingw32 ==23.1.2.1",
+  "xclang-apple-darwin ==23.1.2.1"
+ ],
+ "depends": [
+  "xclang-aarch64-unknown-linux-gnu ==23.1.2.1"
+ ],
+ "license": "Apache-2.0 WITH LLVM-exception",
+ "md5": "0eb66e9c72b3b29fdf2851a4454dc495",
+ "name": "xclang",
+ "platform": "linux",
+ "sha256": "d042db69e9f6881a7f11e348672389efaf89933453f8ca5462660cbb21b21a27",
+ "size": 66814358,
+ "subdir": "linux-aarch64",
+ "timestamp": 1790443822017,
+ "version": "23.1.2.1"
+}

@@ -1,0 +1,14 @@
+{
+ "build": "h4616a5c_0",
+ "build_number": 0,
+ "depends": [],
+ "license": "Apache-2.0 WITH LLVM-exception",
+ "md5": "ba3c332ccc78ea45da420a83e244006a",
+ "name": "xclang-apple-darwin",
+ "noarch": "generic",
+ "sha256": "d0779db175d67484e988e98eb028d2a55949fe236e88fa1cbcb02e02ebc08907",
+ "size": 13517564,
+ "subdir": "noarch",
+ "timestamp": 1790443798500,
+ "version": "23.1.2.1"
+}
