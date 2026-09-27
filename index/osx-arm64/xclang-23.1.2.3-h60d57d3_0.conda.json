@@ -1,0 +1,15 @@
+{
+ "arch": "arm64",
+ "build": "h60d57d3_0",
+ "build_number": 0,
+ "depends": [],
+ "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND ZPL-2.1 AND MIT",
+ "md5": "eabf913661813a759a7ebd4fe0d84733",
+ "name": "xclang",
+ "platform": "osx",
+ "sha256": "cdcebfd723ce737eeb16b79a760210fa17a89615bf14315d560bb66ef7cd0cdb",
+ "size": 115475861,
+ "subdir": "osx-arm64",
+ "timestamp": 1790526875838,
+ "version": "23.1.2.3"
+}
