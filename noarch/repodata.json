@@ -32,6 +32,20 @@
    "subdir": "noarch",
    "timestamp": 1790466249861,
    "version": "23.1.2.2"
+  },
+  "llvm-option-inc-23.1.2.3-h4616a5c_0.conda": {
+   "build": "h4616a5c_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception",
+   "md5": "e81eecde8fb78e192f0c95586d591bc2",
+   "name": "llvm-option-inc",
+   "noarch": "generic",
+   "sha256": "77d72bcc936d7f899a4acbf9c54af797277a00658e120a4fa6dc76bfc87bf026",
+   "size": 180922,
+   "subdir": "noarch",
+   "timestamp": 1790527202250,
+   "version": "23.1.2.3"
   }
  },
  "repodata_version": 2
