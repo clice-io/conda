@@ -1,0 +1,15 @@
+{
+ "arch": "arm64",
+ "build": "h5667933_0",
+ "build_number": 0,
+ "depends": [],
+ "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND ZPL-2.1 AND MIT",
+ "md5": "643e802f1712f7cd867dc352a9e8bc57",
+ "name": "xclang",
+ "platform": "win",
+ "sha256": "fb2807741c442f444719c197c892472aec3cfbe0aa8dcdf813d1de4484f2088d",
+ "size": 90178660,
+ "subdir": "win-arm64",
+ "timestamp": 1790692453582,
+ "version": "23.1.2.4"
+}
