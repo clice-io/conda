@@ -1,0 +1,15 @@
+{
+ "arch": "x86_64",
+ "build": "h9490d1a_0",
+ "build_number": 0,
+ "depends": [],
+ "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND GPL-2.0-only WITH Linux-syscall-note AND MPL-2.0 AND ZPL-2.1 AND MIT AND Zlib AND BSD-3-Clause",
+ "md5": "abb64e9ff7df7955b74a914386f0f6b3",
+ "name": "xclang",
+ "platform": "win",
+ "sha256": "1ee8826c6daa53731592e5c7aa1f201011abe5550c85a4b1b0e3a2e019d1e32d",
+ "size": 97517479,
+ "subdir": "win-64",
+ "timestamp": 1791319430855,
+ "version": "23.1.2.9"
+}

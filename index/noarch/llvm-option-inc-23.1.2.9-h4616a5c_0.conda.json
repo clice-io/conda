@@ -1,0 +1,14 @@
+{
+ "build": "h4616a5c_0",
+ "build_number": 0,
+ "depends": [],
+ "license": "Apache-2.0 WITH LLVM-exception",
+ "md5": "89cf7ad8b598a4e9722d396440472e82",
+ "name": "llvm-option-inc",
+ "noarch": "generic",
+ "sha256": "c48a7119cedcf217a2067dfb8ec3b1a29473f93363530abce40d49ca7dad0610",
+ "size": 180966,
+ "subdir": "noarch",
+ "timestamp": 1791319753697,
+ "version": "23.1.2.9"
+}
