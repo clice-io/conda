@@ -52,17 +52,40 @@ function readIndex(file: string): Record {
   let entry = zip.readUInt32LE(end + 16);
   for (let i = zip.readUInt16LE(end + 10); i > 0; i--) {
     const nameLength = zip.readUInt16LE(entry + 28);
+    const extraLength = zip.readUInt16LE(entry + 30);
     const name = zip.toString("utf8", entry + 46, entry + 46 + nameLength);
     if (name.startsWith("info-") && name.endsWith(".tar.zst")) {
       if (zip.readUInt16LE(entry + 10) !== 0) fail(`${file}: ${name} is compressed in the zip`);
-      const size = zip.readUInt32LE(entry + 20);
-      const local = zip.readUInt32LE(entry + 42);
+      const [size, local] = sizeAndOffset(zip, entry, zip.subarray(entry + 46 + nameLength, entry + 46 + nameLength + extraLength));
       const data = local + 30 + zip.readUInt16LE(local + 26) + zip.readUInt16LE(local + 28);
       return fromTar(zlib.zstdDecompressSync(zip.subarray(data, data + size)), file);
     }
-    entry += 46 + nameLength + zip.readUInt16LE(entry + 30) + zip.readUInt16LE(entry + 32);
+    entry += 46 + nameLength + extraLength + zip.readUInt16LE(entry + 32);
   }
   fail(`${file}: no info-*.tar.zst`);
+}
+
+/// A member's size in the zip and the offset of its local header. rattler-build
+/// writes them as zip64 (0xffffffff, the values in the entry's zip64 extra
+/// field, 0x0001, which holds the uncompressed size, the compressed size and
+/// the offset, each only if its own field is 0xffffffff). A size too large
+/// takes the central directory into the zstd input, which fails or not by
+/// chance (`Unknown frame descriptor`).
+function sizeAndOffset(zip: Buffer, entry: number, extra: Buffer): [number, number] {
+  const uncompressed = zip.readUInt32LE(entry + 24);
+  let size = zip.readUInt32LE(entry + 20);
+  let local = zip.readUInt32LE(entry + 42);
+  for (let at = 0; at + 4 <= extra.length; at += 4 + extra.readUInt16LE(at + 2)) {
+    if (extra.readUInt16LE(at) !== 0x0001) continue;
+    let field = at + 4;
+    if (uncompressed === 0xffffffff) field += 8;
+    if (size === 0xffffffff) {
+      size = Number(extra.readBigUInt64LE(field));
+      field += 8;
+    }
+    if (local === 0xffffffff) local = Number(extra.readBigUInt64LE(field));
+  }
+  return [size, local];
 }
 
 function fromTar(tar: Buffer, file: string): Record {
