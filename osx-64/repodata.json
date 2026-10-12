@@ -50,6 +50,21 @@
    "timestamp": 1791773142505,
    "version": "23.1.2.11"
   },
+  "xclang-23.1.2.12-h0dc7051_0.conda": {
+   "arch": "x86_64",
+   "build": "h0dc7051_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND GPL-2.0-only WITH Linux-syscall-note AND MPL-2.0 AND ZPL-2.1 AND MIT AND Zlib AND BSD-3-Clause",
+   "md5": "4823361315bc264755ef2c0658d5ba18",
+   "name": "xclang",
+   "platform": "osx",
+   "sha256": "b3fdc522a0a3bf05fc74ea5b50a2b365e07df1794261f2bea3b31e6894c8bf21",
+   "size": 103729004,
+   "subdir": "osx-64",
+   "timestamp": 1791818583552,
+   "version": "23.1.2.12"
+  },
   "xclang-23.1.2.2-h0dc7051_0.conda": {
    "arch": "x86_64",
    "build": "h0dc7051_0",
