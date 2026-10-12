@@ -1,0 +1,15 @@
+{
+ "arch": "x86_64",
+ "build": "hb0f4dca_0",
+ "build_number": 0,
+ "depends": [],
+ "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND GPL-2.0-only WITH Linux-syscall-note AND MPL-2.0 AND ZPL-2.1 AND MIT AND Zlib AND BSD-3-Clause",
+ "md5": "774e23e694de039a88273badaf40e1ad",
+ "name": "xclang",
+ "platform": "linux",
+ "sha256": "4f42599609a09dd0f7c155c34617a12675debb6bffb0612b6b94b40d0bc16ce3",
+ "size": 106604070,
+ "subdir": "linux-64",
+ "timestamp": 1791773137388,
+ "version": "23.1.2.11"
+}
