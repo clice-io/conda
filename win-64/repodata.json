@@ -289,6 +289,21 @@
    "subdir": "win-64",
    "timestamp": 1794485396833,
    "version": "23.1.5.1"
+  },
+  "xclang-23.1.5.2-h9490d1a_0.conda": {
+   "arch": "x86_64",
+   "build": "h9490d1a_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND GPL-2.0-only WITH Linux-syscall-note AND MPL-2.0 AND ZPL-2.1 AND MIT AND Zlib AND BSD-3-Clause",
+   "md5": "c8c44bf1a6fa6839b5dacb8e732a3cb0",
+   "name": "xclang",
+   "platform": "win",
+   "sha256": "8e166783c85fc9d621e62a746e5d14520efed975c22701200b2e16d7763decc4",
+   "size": 109423297,
+   "subdir": "win-64",
+   "timestamp": 1794529805581,
+   "version": "23.1.5.2"
   }
  },
  "repodata_version": 2
