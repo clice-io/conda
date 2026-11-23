@@ -304,6 +304,21 @@
    "subdir": "win-arm64",
    "timestamp": 1794529804045,
    "version": "23.1.5.2"
+  },
+  "xclang-23.1.5.3-h5667933_0.conda": {
+   "arch": "arm64",
+   "build": "h5667933_0",
+   "build_number": 0,
+   "depends": [],
+   "license": "Apache-2.0 WITH LLVM-exception AND LGPL-2.1-or-later AND GPL-2.0-only WITH Linux-syscall-note AND MPL-2.0 AND ZPL-2.1 AND MIT AND Zlib AND BSD-3-Clause",
+   "md5": "6c35b6d197140138dd719926be681ec8",
+   "name": "xclang",
+   "platform": "win",
+   "sha256": "27968a4e650fdcce1d85b20f805f959e3e1d88f2181f870b76194ea713f9d688",
+   "size": 104965041,
+   "subdir": "win-arm64",
+   "timestamp": 1795394812903,
+   "version": "23.1.5.3"
   }
  },
  "repodata_version": 2
